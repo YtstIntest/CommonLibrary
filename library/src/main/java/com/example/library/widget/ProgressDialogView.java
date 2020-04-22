@@ -8,7 +8,7 @@ import java.util.Timer;
 import java.util.TimerTask;
 
 /**
- * @author Zhaohao
+ * @author xialiang
  * @Description: 弹出进度组件
  * @Date 2016/11/24 17:32
  */

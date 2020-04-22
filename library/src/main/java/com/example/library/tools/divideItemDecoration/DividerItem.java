@@ -20,8 +20,8 @@ import androidx.recyclerview.widget.RecyclerView;
 
 /**
  *
- * @author Zhaohao
- * @Date 2017/03/01 14:54
+ * @author xialiang
+ * @Date 2019/03/01 14:54
  * @Description: 分隔线
  */
 public class DividerItem extends RecyclerView.ItemDecoration {

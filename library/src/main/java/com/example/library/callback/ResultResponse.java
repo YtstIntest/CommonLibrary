@@ -1,5 +1,5 @@
 package com.example.library.callback;/*
- * Copyright 2016 jeasonlzy(廖子尧)
+ * Copyright 2016 xialiang(xialiang)
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -18,7 +18,7 @@ import java.io.Serializable;
 
 /**
  * ================================================
- * 作    者：jeasonlzy（廖子尧）Github地址：https://github.com/jeasonlzy
+ * 作    者：xialiang（xialiang）Github地址：https://github.com/xialiang
  * 版    本：1.0
  * 创建日期：16/9/28
  * 描    述：

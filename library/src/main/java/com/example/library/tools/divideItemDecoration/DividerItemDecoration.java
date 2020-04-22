@@ -14,10 +14,10 @@ import androidx.recyclerview.widget.RecyclerView;
 
 /**
  * ================================================
- * 作    者：jeasonlzy（廖子尧）
+ * 作    者：xialiang（xialiang）
  * 版    本：1.0
  * 创建日期：2016/4/7
- * 描    述：我的Github地址  https://github.com/jeasonlzy0216
+ * 描    述：我的Github地址  https://github.com/xialiang0216
  * 修订历史：
  * ================================================
  */

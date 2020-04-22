@@ -12,7 +12,7 @@ import com.bumptech.glide.module.AppGlideModule;
 import androidx.annotation.NonNull;
 
 /**
- * @author Zhaohao
+ * @author xialiang
  * @Description: Glide 缓存大小和路径配置类
  * @date 2016-09-06 12:50
  */

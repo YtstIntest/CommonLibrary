@@ -7,7 +7,7 @@ import android.util.AttributeSet;
 import android.widget.ImageView;
 
 /**
- * @author Zhaohao
+ * @author xialiang
  * @Description: 动态高度的ImageView 用于图片瀑布流
  * @Date 2016/12/08 15:28
  */

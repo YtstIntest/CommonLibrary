@@ -8,7 +8,7 @@ import androidx.viewpager.widget.ViewPager;
 
 /**
  * 设置viewpager不可滑动 默认可以滑动
- * Created by geyifeng on 2017/1/14.
+ * Created by geyifeng on 2019/1/14.
  */
 
 public class CustomViewPager extends ViewPager {

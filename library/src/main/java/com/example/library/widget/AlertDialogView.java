@@ -13,7 +13,7 @@ import com.example.library.widget.listener.ChooseOptionCallBack;
 
 
 /**
- * @author Zhaohao
+ * @author xialiang
  * @Description: 弹出确认取消提示框
  * @Date 2016/11/24 15:55
  */

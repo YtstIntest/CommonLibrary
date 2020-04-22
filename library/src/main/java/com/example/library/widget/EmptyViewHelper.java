@@ -10,9 +10,9 @@ import com.example.library.R;
 
 
 /**
- * @author Zhaohao
+ * @author xialiang
  * @Description: 空界面显示
- * @date 2017-08-27 16:21
+ * @date 2019-08-27 16:21
  */
 
 public class EmptyViewHelper {

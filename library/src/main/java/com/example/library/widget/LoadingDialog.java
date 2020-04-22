@@ -12,7 +12,7 @@ import com.example.library.R;
 
 /**
  * description:弹窗浮动加载进度条
- * Created by xsf
+ * Created by xialiang
  * on 2016.07.17:22
  */
 public class LoadingDialog {

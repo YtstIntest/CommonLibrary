@@ -22,7 +22,7 @@ import java.util.List;
 
 /**
  * des:9宫图适配器
- * Created by xsf
+ * Created by xialiang
  * on 2016.09.16:33
  */
 public class NinePicturesAdapter extends BaseAblistViewAdapter<String> {

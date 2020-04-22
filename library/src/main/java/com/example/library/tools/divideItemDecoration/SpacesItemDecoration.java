@@ -7,7 +7,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 
 /**
- * @author Zhaohao
+ * @author xialiang
  * @Description: 空白分隔线
  * @Date 2016/12/08 17:37
  */

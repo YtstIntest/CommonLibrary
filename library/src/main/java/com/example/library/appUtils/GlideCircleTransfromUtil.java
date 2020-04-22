@@ -15,7 +15,7 @@ import androidx.annotation.NonNull;
 
 /**
  * description:glide转圆形图片
- * Created by xsf
+ * Created by xialiang
  * on 2016.04.15:26
  */
 public class GlideCircleTransfromUtil extends BitmapTransformation {

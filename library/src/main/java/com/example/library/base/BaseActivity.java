@@ -24,8 +24,8 @@ import butterknife.ButterKnife;
 
 /**
  *
- * @author Zhaohao
- * @Date 2017/03/09 8:50
+ * @author xialiang
+ * @Date 2019/03/09 8:50
  * @Description: Activity基类
  */
 public abstract class BaseActivity extends AppCompatActivity {

@@ -21,7 +21,7 @@ import java.util.logging.Level;
 import okhttp3.OkHttpClient;
 
 /**
- * @author Zhaohao
+ * @author xialiang
  * @Description: 全局配置工具
  * @Date 2016/11/22 14:24
  */

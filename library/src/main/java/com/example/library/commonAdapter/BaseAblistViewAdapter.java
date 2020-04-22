@@ -11,7 +11,7 @@ import java.util.List;
 
 /**
  * des:基础AblistView适配器
- * Created by xsf
+ * Created by xialiang
  * on 2016.04.17:03
  */
 public class BaseAblistViewAdapter<T> extends android.widget.BaseAdapter {

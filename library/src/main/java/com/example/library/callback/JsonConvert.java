@@ -1,5 +1,5 @@
 package com.example.library.callback;/*
- * Copyright 2016 jeasonlzy(廖子尧)
+ * Copyright 2016 xialiang(xialiang)
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -29,7 +29,7 @@ import okhttp3.ResponseBody;
 
 /**
  * ================================================
- * 作    者：jeasonlzy（廖子尧）Github地址：https://github.com/jeasonlzy
+ * 作    者：xialiang（xialiang）Github地址：https://github.com/xialiang
  * 版    本：1.0
  * 创建日期：16/9/11
  * 描    述：
@@ -64,9 +64,9 @@ public class JsonConvert<T> implements Converter<T> {
         // 重要的事情说三遍，不同的业务，这里的代码逻辑都不一样，如果你不修改，那么基本不可用
         // 重要的事情说三遍，不同的业务，这里的代码逻辑都不一样，如果你不修改，那么基本不可用
 
-        // 如果你对这里的代码原理不清楚，可以看这里的详细原理说明: https://github.com/jeasonlzy/okhttp-OkGo/wiki/JsonCallback
-        // 如果你对这里的代码原理不清楚，可以看这里的详细原理说明: https://github.com/jeasonlzy/okhttp-OkGo/wiki/JsonCallback
-        // 如果你对这里的代码原理不清楚，可以看这里的详细原理说明: https://github.com/jeasonlzy/okhttp-OkGo/wiki/JsonCallback
+        // 如果你对这里的代码原理不清楚，可以看这里的详细原理说明: https://github.com/xialiang/okhttp-OkGo/wiki/JsonCallback
+        // 如果你对这里的代码原理不清楚，可以看这里的详细原理说明: https://github.com/xialiang/okhttp-OkGo/wiki/JsonCallback
+        // 如果你对这里的代码原理不清楚，可以看这里的详细原理说明: https://github.com/xialiang/okhttp-OkGo/wiki/JsonCallback
 
         if (type == null) {
             if (clazz == null) {

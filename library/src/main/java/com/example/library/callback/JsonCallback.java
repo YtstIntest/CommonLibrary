@@ -1,5 +1,5 @@
 package com.example.library.callback;/*
- * Copyright 2016 jeasonlzy(廖子尧)
+ * Copyright 2016 xialiang(xialiang)
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -24,7 +24,7 @@ import okhttp3.Response;
 
 /**
  * ================================================
- * 作    者：jeasonlzy（廖子尧）Github地址：https://github.com/jeasonlzy
+ * 作    者：xialiang（xialiang）Github地址：https://github.com/xialiang
  * 版    本：1.0
  * 创建日期：2016/1/14
  * 描    述：默认将返回的数据解析成需要的Bean,可以是 BaseBean，String，List，Map
@@ -72,7 +72,7 @@ public abstract class JsonCallback<T> extends AbsCallback<T> {
         // 重要的事情说三遍，不同的业务，这里的代码逻辑都不一样，如果你不修改，那么基本不可用
         // 重要的事情说三遍，不同的业务，这里的代码逻辑都不一样，如果你不修改，那么基本不可用
 
-        //详细自定义的原理和文档，看这里： https://github.com/jeasonlzy/okhttp-OkGo/wiki/JsonCallback
+        //详细自定义的原理和文档，看这里： https://github.com/xialiang/okhttp-OkGo/wiki/JsonCallback
 
         if (type == null) {
             if (clazz == null) {

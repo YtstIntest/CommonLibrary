@@ -15,7 +15,7 @@ import com.example.library.appUtils.DisplayUtil;
 
 /**
  * @Description:  搜索栏
- * @author Zhaohao
+ * @author xialiang
  * @Date 2016/12/12 16:40
  */
 public class SearchTitleBar extends RelativeLayout {

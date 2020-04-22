@@ -20,7 +20,7 @@ import butterknife.ButterKnife;
 
 /**
  * des:基类fragment
- * Created by xsf
+ * Created by xialiang
  * on 2016.07.12:38
  */
 

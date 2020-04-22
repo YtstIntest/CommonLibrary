@@ -15,7 +15,7 @@ import androidx.annotation.NonNull;
 
 /**
  * description:glide转换圆角图片
- * Created by xsf
+ * Created by xialiang
  * on 2016.04.15:17
  */
 public class GlideRoundTransformUtil extends BitmapTransformation {

@@ -24,7 +24,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import butterknife.ButterKnife;
 
 /**
- * Created by ZHT on 2017/4/17.
+ * Created by xialiang on 2019/4/17.
  * Activity基类
  */
 

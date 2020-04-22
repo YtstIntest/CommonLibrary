@@ -19,7 +19,7 @@ import com.example.library.R;
 /**
  * @ClassName: ClearnEditText 
  * @Description: 带清除功能输入框 
- * @author zhaohao 
+ * @author xialiang
  * @date 2016-5-19 上午11:59:23 
  *  
  */

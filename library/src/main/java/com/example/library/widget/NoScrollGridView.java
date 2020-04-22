@@ -6,7 +6,7 @@ import android.widget.GridView;
 
 /**
  * description:不会滚动的gridview
- * Created by xsf
+ * Created by xialiang
  * on 2016.04.15:04
  */
 public class NoScrollGridView extends GridView {

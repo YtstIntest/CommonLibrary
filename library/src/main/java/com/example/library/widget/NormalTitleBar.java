@@ -18,8 +18,8 @@ import androidx.annotation.DrawableRes;
 
 
 /**
- * @author Zhaohao
- * @Date 2017/03/09 10:42
+ * @author xialiang
+ * @Date 2019/03/09 10:42
  * @Description: 簡單标题栏
  */
 public class NormalTitleBar extends RelativeLayout {

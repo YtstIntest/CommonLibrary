@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <shape>
+            <padding android:bottom="8dp" android:left="3dp" android:right="3dp" android:top="8dp"/>
+            <corners android:radius="3dp"/>
+            <!--<size android:width="320dp" android:height="60dp"/>-->
+            <solid android:color="@color/main_colorPrimaryDark"/><!-- 填充的颜色 -->
+        </shape>
+    </item>
+    <item android:state_pressed="false">
+        <shape>
+            <padding android:bottom="8dp" android:left="3dp" android:right="3dp" android:top="8dp"/>
+            <corners android:radius="3dp"/>
+            <!--<size android:width="320dp" android:height="60dp"/>-->
+            <solid android:color="@color/main_colorPrimary"/><!-- 填充的颜色 -->
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <padding android:bottom="8dp" android:left="3dp" android:right="3dp" android:top="8dp"/>
+            <corners android:radius="3dp"/>
+            <!--<size android:width="320dp" android:height="60dp"/>-->
+            <solid android:color="@color/main_colorPrimary"/><!-- 填充的颜色 -->
+        </shape>
+    </item>
+
+
+</selector>

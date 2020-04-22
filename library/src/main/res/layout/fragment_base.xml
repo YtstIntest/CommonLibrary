@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:fitsSystemWindows="true"
+              android:orientation="vertical">
+
+    <com.zwh.common.widget.NormalTitleBar
+        android:id="@+id/titleBar"
+        app:titleTextSize="@dimen/textSize_large"
+        app:subtitleTextSize="@dimen/textSize_small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <!--<RelativeLayout-->
+                    <!--android:id="@+id/common_title"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="48dp"-->
+                    <!--android:background="@color/main_color"-->
+                    <!--android:minHeight="48dp"-->
+                    <!--android:orientation="horizontal">-->
+        <!--&lt;!&ndash; 公共的的标题栏 &ndash;&gt;-->
+        <!--<TextView-->
+            <!--android:id="@+id/actionBack"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_alignParentLeft="true"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:background="@android:color/transparent"-->
+            <!--android:drawableLeft="@drawable/icon_arrow_back"-->
+            <!--android:gravity="center"-->
+            <!--android:padding="8dp"-->
+            <!--android:textColor="@color/white"-->
+            <!--android:visibility="visible"/>-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/actionTitle"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="fill_parent"-->
+            <!--android:layout_centerInParent="true"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:textColor="@color/white"/>-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/image_right"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="fill_parent"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:layout_marginRight="10dp"-->
+            <!--android:padding="5dp"/>-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/tv_right"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="fill_parent"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:layout_marginRight="5dp"-->
+            <!--android:gravity="center"-->
+            <!--android:padding="5dp"-->
+            <!--android:textColor="@color/white"/>-->
+    <!--</RelativeLayout>-->
+
+    <FrameLayout
+        android:id="@+id/fl_fragment_child_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+
+</LinearLayout>

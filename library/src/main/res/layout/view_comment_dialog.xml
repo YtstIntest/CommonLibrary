@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/white"
+              android:gravity="center_horizontal"
+              android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="@dimen/margin_8_dp"
+        android:layout_marginBottom="@dimen/margin_5_dp"
+        android:text="写评论"
+        android:textColor="@color/color_42"
+        android:textSize="@dimen/textSize_small"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#cccccc"/>
+
+    <EditText
+        android:id="@+id/et_comment"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/Size_60"
+        android:layout_margin="@dimen/margin_10_dp"
+        android:background="@drawable/input_text_style"
+        android:gravity="top|left"
+        android:hint="请输入评论内容(最多为100字)"
+        android:maxLength="100"
+        android:minLines="3"
+        android:textColor="@color/text_dark"
+        android:textColorHint="@color/color_9e"
+        android:textSize="@dimen/textSize_smaller"
+        />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_10_dp"
+        >
+
+        <Button
+            android:id="@+id/tv_cancel"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="@dimen/Size_50"
+            android:layout_height="@dimen/Size_25"
+            android:layout_marginLeft="@dimen/margin_10_dp"
+            android:textSize="@dimen/textSize_smaller"
+            android:textColor="@color/color_9e"
+            android:background="@drawable/small_button_style"
+            android:visibility="gone"
+            android:text="取消"
+            />
+        <Button
+            android:id="@+id/cameraButton"
+            android:layout_width="wrap_content"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_10_dp"
+            android:background="@drawable/camera_button_style"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_toRightOf="@+id/cameraButton"
+            android:minWidth="0dp"
+            android:minHeight="0dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/margin_10_dp"
+            android:background="@drawable/photo_button_style"
+            />
+
+
+        <Button
+            android:id="@+id/tv_send"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="@dimen/Size_50"
+            android:layout_height="@dimen/Size_30"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/margin_10_dp"
+            android:textSize="@dimen/textSize_smaller"
+            android:textColor="@color/color_62"
+            android:background="@drawable/small_button_style"
+            android:text="发送"
+            />
+    </RelativeLayout>
+
+</LinearLayout>

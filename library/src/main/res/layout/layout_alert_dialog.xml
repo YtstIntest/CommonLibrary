@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/margin_20_dp"
+    android:paddingRight="@dimen/margin_20_dp">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/margin_8_dp"
+        android:paddingLeft="@dimen/margin_16_dp"
+        android:paddingTop="@dimen/margin_8_dp"
+        android:text="提示:"
+        android:textColor="@color/main_colorPrimary"
+        android:textSize="@dimen/textSize_small" />
+
+    <TextView
+        android:id="@+id/message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingBottom="@dimen/margin_8_dp"
+        android:paddingTop="@dimen/margin_8_dp"
+        android:text="内容"
+        android:textColor="@color/textLabelColor"
+        android:textSize="@dimen/textSize_small" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:id="@+id/sureButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@null"
+            android:text="确定"
+            android:textColor="@color/main_colorPrimary" />
+
+        <Button
+            android:id="@+id/cancleButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/sureButton"
+            android:background="@null"
+            android:text="取消"
+            android:textColor="@color/main_colorPrimary" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,5 +1,8 @@
 package com.example.library.appUtils;
 
+
+
+
 import android.text.TextUtils;
 import android.view.Gravity;
 import android.view.LayoutInflater;

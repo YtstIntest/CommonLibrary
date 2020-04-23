@@ -1,5 +1,7 @@
 package com.example.library.tools.daynightmodeutils;
 
+
+
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.animation.ValueAnimator;
@@ -15,7 +17,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
-
 
 import com.example.library.R;
 
@@ -84,7 +85,7 @@ public class ChangeModeController {
      * @param activity 上下文
      * @return
      */
-    public ChangeModeController init(final Activity activity,final Class mClass){
+    public ChangeModeController init(final Activity activity, final Class mClass){
         init();
         LayoutInflaterCompat.setFactory(LayoutInflater.from(activity), new LayoutInflaterFactory() {
             @Override

@@ -1,11 +1,13 @@
 package com.example.library.appUtils;
 
+
 import android.app.Activity;
-import android.app.Fragment;
-import android.app.FragmentManager;
-import android.app.FragmentTransaction;
 
 import java.util.Stack;
+
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
 
 /**
  * Created by xialiang on 2019/4/17.

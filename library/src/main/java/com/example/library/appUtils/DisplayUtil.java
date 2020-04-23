@@ -1,5 +1,7 @@
 package com.example.library.appUtils;
 
+
+
 import android.app.Activity;
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -7,7 +9,6 @@ import android.graphics.Rect;
 import android.util.DisplayMetrics;
 import android.view.View;
 import android.view.ViewTreeObserver;
-import android.view.ViewTreeObserver.OnGlobalLayoutListener;
 import android.view.WindowManager;
 import android.widget.LinearLayout;
 
@@ -79,7 +80,7 @@ public class DisplayUtil {
 	 */
 	public static int[] getWidgetWH(final View view){
 	    ViewTreeObserver vto2 = view.getViewTreeObserver();
-	    vto2.addOnGlobalLayoutListener(new OnGlobalLayoutListener() {
+	    vto2.addOnGlobalLayoutListener(new ViewTreeObserver.OnGlobalLayoutListener() {
 	        @Override
 	        public void onGlobalLayout() {
 	        	view.getViewTreeObserver().removeGlobalOnLayoutListener(this);
@@ -95,7 +96,7 @@ public class DisplayUtil {
 	 */
 	public static int getViewHeight(final View view){
 		ViewTreeObserver vto2 = view.getViewTreeObserver();
-		vto2.addOnGlobalLayoutListener(new OnGlobalLayoutListener() {
+		vto2.addOnGlobalLayoutListener(new ViewTreeObserver.OnGlobalLayoutListener() {
 			@Override
 			public void onGlobalLayout() {
 				view.getViewTreeObserver().removeGlobalOnLayoutListener(this);
@@ -111,7 +112,7 @@ public class DisplayUtil {
 	 */
 	public static int getViewWidth(final View view){
 		ViewTreeObserver vto2 = view.getViewTreeObserver();
-		vto2.addOnGlobalLayoutListener(new OnGlobalLayoutListener() {
+		vto2.addOnGlobalLayoutListener(new ViewTreeObserver.OnGlobalLayoutListener() {
 			@Override
 			public void onGlobalLayout() {
 				view.getViewTreeObserver().removeGlobalOnLayoutListener(this);

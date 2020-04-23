@@ -1,6 +1,5 @@
 package com.example.library.base;
 
-import android.app.Fragment;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
@@ -15,6 +14,7 @@ import com.example.library.appUtils.ToastImageTipUtils;
 import com.example.library.widget.LoadingDialog;
 
 import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
 import butterknife.ButterKnife;
 
 

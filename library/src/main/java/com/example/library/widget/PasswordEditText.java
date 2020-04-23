@@ -1,5 +1,7 @@
 package com.example.library.widget;
 
+
+
 import android.content.Context;
 import android.graphics.drawable.Drawable;
 import android.text.method.HideReturnsTransformationMethod;
@@ -7,7 +9,6 @@ import android.text.method.PasswordTransformationMethod;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
-import android.view.View.OnFocusChangeListener;
 import android.view.animation.Animation;
 import android.view.animation.CycleInterpolator;
 import android.view.animation.TranslateAnimation;
@@ -23,7 +24,7 @@ import com.example.library.R;
  * @date 2016-5-19 上午11:59:23 
  *  
  */
-public class PasswordEditText extends EditText implements OnFocusChangeListener{
+public class PasswordEditText extends EditText implements View.OnFocusChangeListener {
 	/**
 	 * 删除按钮的引用
 	 */

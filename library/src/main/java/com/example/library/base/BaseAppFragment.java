@@ -1,6 +1,7 @@
 package com.example.library.base;
 
-import android.app.Fragment;
+
+
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.graphics.drawable.BitmapDrawable;
@@ -17,6 +18,7 @@ import com.example.library.widget.NormalTitleBar;
 
 import androidx.annotation.DrawableRes;
 import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
 

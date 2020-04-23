@@ -6,12 +6,12 @@
               android:fitsSystemWindows="true"
               android:orientation="vertical">
 
-    <com.zwh.common.widget.NormalTitleBar
+    <com.example.library.widget.NormalTitleBar
         android:id="@+id/titleBar"
         app:titleTextSize="@dimen/textSize_large"
         app:subtitleTextSize="@dimen/textSize_small"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"></com.example.library.widget.NormalTitleBar>
     <!--<RelativeLayout-->
                     <!--android:id="@+id/common_title"-->
                     <!--android:layout_width="match_parent"-->
